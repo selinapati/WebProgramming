@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mad Over Pizza</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="body.css">
+  <link rel="stylesheet" href="signin.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <!--for home section-->
+  <nav class="navbar navbar-inverse">
+
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html"><img src="images/main.png" class="main"></a>
+      </div>
+      <ul class="nav navbar-nav">
+
+        <li class="act"><a href="index.html">Home</a></li>
+        <li class="act"><a href="about.html">About</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact <span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="tel: +977 9852365478">Call : +977 9852365478</a></li>
+            <li><a href="mailto: madoverpizza@gmail.com">E-mail : madoverpizza@gmail.com</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="signin.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!--main overview of sign in page-->
+<div class="sign-1">
+<div class="signin">
+    <h1>Sign Up to Order</h1>
+    <form action="">
+          <label for="first">
+                Username:
+          </label>
+          <input type="text" 
+                 id="first" 
+                 name="first" 
+                 placeholder="Enter your Username" required>
+
+          <label for="password">
+                Password:
+          </label>
+          <input type="password"
+                 id="password" 
+                 name="password"
+                 placeholder="Enter your Password" required>
+                 <label for="password">
+                    Password:
+              </label>
+              <input type="password"
+                     id="password" 
+                     name="password"
+                     placeholder="Re-enter your Password" required>
+
+          <div class="wrap">
+                <button type="submit"
+                        onclick="solve()">
+                      Submit
+                </button>
+          </div>
+    </form>
+</div></div>
+
+<!--footer-->
+<section class="footer-1 layout_padding">
+  <div class="container">
+    <div class="info_contact">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="tel: +977 9852365478">
+            <img src="images/telephone-white.png" alt="">
+            <span>
+              +977 9852365478
+            </span>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="mailto: madoverpizza@gmail.com">
+            <img src="images/envelope-white.png" alt="">
+            <span>
+              madoverpizza@gmail.com
+            </span>
+          </a>
+        </div>
+        <div class="info_social">
+          <div>
+            <a href="">
+              <img src="images/linkedin.png" alt="https://www.linkedin.com/madoverpizza">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="images/instagram.png" alt="https://www.instagram.com/madoverpizza.np/">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-1">
+        <p>
+          &copy; 2024 All Rights Reserved By Mad Over Pizza
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+  </body>
+  </html>

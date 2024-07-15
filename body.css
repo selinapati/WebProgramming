@@ -1,6 +1,6 @@
-.main{
-        width: 43px;
-        margin-top: -10px;
+.main {
+    width: 43px;
+    margin-top: -10px;
 }
 
 .body-1 {
@@ -11,7 +11,10 @@
 
 .body-2 {
     margin-left: 66px;
+    padding-top: 10px;
     margin-top: 34px;
+    margin-bottom: 44px;
+    padding-bottom: 61px;
     line-height: 30px;
 }
 
@@ -22,7 +25,6 @@
     line-height: 30px;
     margin-left: 152px;
 }
-
 
 .dropdown-menu {
     position: absolute;
@@ -44,7 +46,15 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 
-.gallery-1{
+
+/*for about section*/
+.about-1 {
+    margin-top: 48px;
+}
+
+
+
+.gallery-1 {
     margin-top: 33px;
 }
 
@@ -52,14 +62,14 @@
     float: left;
     width: 33.33%;
     padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .gallery-1::after {
+}
+
+/* Clearfix (clear floats) */
+.gallery-1::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 
 /* Responsive adjustments */
@@ -83,3 +93,90 @@
         right: auto;
     }
 }
+
+
+.back-button {
+    display: none;
+    /* Initially hidden */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* gallery css */
+
+.gallery {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #c57c41;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+.testimonials {
+    width: 596px;
+    height: 105px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 175px;
+    line-height: 30px;
+    margin-left: 46rem;
+}
+
