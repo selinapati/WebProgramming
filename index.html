@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="body.css">
-  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 
         <li class="act"><a href="index.html">Home</a></li>
         <li class="act"><a href="about.html">About</a></li>
-        <li class="act"><a href="https://madoverpizza.com/">Menu </a></li>
+        <li class="act"><a href="https://madoverpizza.com/" target="_blank">Menu </a></li>
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact <span
               class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -43,7 +43,7 @@
   </nav>
 
   <!--for main overview section-->
-  <h3 style="text-align: center; font-style: italic; margin-top: 48px;">Mad Over Pizza</h3><br>
+  <h3 style="text-align: center; margin-top: 48px;">Mad Over Pizza</h3><br>
   <div class="bg">
     <div class="middle">
 
@@ -79,55 +79,144 @@
   </div>
 
   <!--for testimonials-->
+  <!--for testimonials-->
   <h3 style="text-align: center;  margin-top: 55px;">Testimonials</h3><br>
-  <div class="feedback">
-    <p class="testimonials">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id."</p>
-  </div>
+  <section class="section" id="section--3">
 
-  <!--for footer-->
-  <section class="info_section layout_padding">
-    <div class="container">
-      <div class="info_contact">
-        <div class="row">
-          <div class="col-md-4">
-            <a href="tel: +977 9852365478">
-              <img src="images/telephone-white.png" alt="">
-              <span>
-                +977 9852365478
-              </span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="mailto: madoverpizza@gmail.com">
-              <img src="images/envelope-white.png" alt="">
-              <span>
-                madoverpizza@gmail.com
-              </span>
-            </a>
-          </div>
-          <div class="info_social">
-            <div>
-              <a href="">
-                <img src="images/linkedin.png" alt="https://www.linkedin.com/madoverpizza">
-              </a>
-            </div>
-            <div>
-              <a href="">
-                <img src="images/instagram.png" alt="https://www.instagram.com/madoverpizza.np/">
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="bottom-1">
-          <p>
-            &copy; 2024 All Rights Reserved By Mad Over Pizza
-          </p>
+    <div class="slider">
+      <div class="slide slide--1">
+        <div class="testimonial">
+          <h5 class="testimonial__header">Best pizza in town</h5>
+          <blockquote class="testimonial__text">
+            This is hands-down the best pizza I've ever had! The crust is perfectly crispy, the sauce is tangy and
+            flavorful, and the cheese... oh, the cheese! It's like a symphony of flavors in every bite. I could eat this
+            every day and never get tired of it.
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="images/male.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Aarav Lynn</h6>
+          </address>
         </div>
       </div>
+
+      <div class="slide slide--2">
+        <div class="testimonial">
+          <h5 class="testimonial__header">Perfection in Every BiteThe last step to becoming a complete minimalist
+          </h5>
+          <blockquote class="testimonial__text">
+            I am a huge pizza lover, and I can honestly say this is the best pizza I've ever had. The crust is thin and
+            crunchy, the sauce is just the right amount of sweet and savory, and the toppings are generous and
+            delicious. Every bite is perfection!
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="images/female.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Riya Shrestha</h6>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--3">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            A Game-Changer
+          </h5>
+          <blockquote class="testimonial__text">
+            Their meat lovers pizza is a game-changer. The dough is light and airy, the sauce is bursting with flavor,
+            and the toppings are fresh and delicious. I've brought all my friends here, and they all agree - best pizza
+            in town!
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="images/female.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Alisha Pradhan</h6>
+          </address>
+        </div>
+      </div>
+
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
     </div>
   </section>
 
+
+  <!--for footer-->
+  <footer>
+    <div class="contact-end">
+      <h3 style="text-align: center;"> Mad Over Pizza</h3><br>
+      <p class="lead">A cloud kitchen with fast home delivery<br>
+
+        Serving our customers with the <br>
+
+        most <i>authentic</i> and <i>delicious</i> pizza
+
+        in the town</p>
+      <div class="col-md-4" style="
+      float: right;
+      margin-top: 65px;">
+        <a href=" tel: +977 9852365478">
+          <i class="material-icons" style="font-size:36px; color: white; vertical-align: middle ;">call</i>
+          <span>
+            +977 9852365478
+          </span>
+        </a>
+        <br><br><br>
+        <a href="mailto: madoverpizza@gmail.com">
+          <i class="material-icons" style="font-size:36px; color: white; vertical-align: middle ;">local_post_office</i>
+          <span>
+            madoverpizza@gmail.com
+          </span>
+        </a>
+        <br><br><br>
+        <a href="https://maps.app.goo.gl/QWuk119nrhcwLoef7">
+          <i class="material-icons" style="font-size:36px; color: white; vertical-align: middle ;">place</i>
+          <span>
+            Mandala Streets, Thamel
+          </span>
+        </a>
+        <div class="socials">
+          <a href="https://www.facebook.com/madoverpizza.np/" target="_blank" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/madoverpizza.np/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://foodmandu.com/Restaurant/Details/1232" target="_blank" class="fa">
+              <i class="material-icons"
+                style="font-size:20.3px">local_grocery_store</i>
+              </a>
+          </div>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14130.644325945075!2d85.3408551!3d27.6968681!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19cc01b40305%3A0x7528a86bec657abc!2sMad%20Over%20Pizza!5e0!3m2!1sen!2snp!4v1721551581006!5m2!1sen!2snp"
+          width="400" height="350" style="border:0; margin: 20px 10px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+    </div>
+    <div class="cont">
+      <h3 style="text-align: center;">Contact Us</h3>
+      <form action="action_page.php">
+
+        <label for="fname">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required onfocus="this.value=''">
+
+        <label for="lname">Email Address</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email address" required
+          onfocus="this.value=''">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." required style="height:200px"
+          onfocus="this.value=''"></textarea>
+
+        <input type="submit" value="Submit"
+          onclick="javascript:alert('Thank you for contacting us. We will reach out to you soon!')">
+
+      </form>
+    </div>
+    
+  </footer>
+  <div class="bottom-1">
+    <p>
+      &copy; 2024 All Rights Reserved By Mad Over Pizza
+    </p>
+  </div>
   <script src="gallery.js"></script>
+  <script src="testimonial.js"></script>
 </body>
 
 </html>
